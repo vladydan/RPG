@@ -40,7 +40,9 @@ int main()
     }   
     tailletotal=taillex*tailley;
     tailletotal=tailletotal/3;
-    for(i=0;i<tailletotal;i++){
+     i=0;
+    while(i!=tailletotal){
+            i++;
       a=(rand()%(MAX-MIN+1))+MIN;
       b=(rand()%(MAXb-MINb+1))+MINb;
       map[a][b]='#';
